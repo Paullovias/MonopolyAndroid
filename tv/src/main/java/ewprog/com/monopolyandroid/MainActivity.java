@@ -68,6 +68,7 @@ public class MainActivity extends Activity {
             playerToken (boardPiece)
             playerMoney (should be a field for default start cash)
             playerLocation (initializes to gameBoard[0])
+                player movement should use: (currentLocation + 2d6) % 40
          */
     }
 }
